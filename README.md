@@ -27,33 +27,30 @@ Assume the probability the player to win the game is p. Let q<sub>0</sub> to be 
 <img src="https://render.githubusercontent.com/render/math?math=q_2=(1-q_0)p">
 
 Solve the equations, we have
-$$
-q_0=1-p\\
-q_1=p-p^2\\
-q_2=p^2
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=q_0=1-p">
+<img src="https://render.githubusercontent.com/render/math?math=q_1=p-p^2">
+<img src="https://render.githubusercontent.com/render/math?math=q_2=p^2">
 
 ### With bonus rules
 
 Assume that the player is awarded x stars after wining and the double bonus rule applies. Then, the expected stars earn in each game is
-$$
-E(s) = xq_0p + xq_1p + 2xq_2p - (1-p) = xp^3 + (x+1)p - 1
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=E(s) = xq_0p + xq_1p + 2xq_2p - (1-p) = xp^3 + (x+1)p - 1">
+
 If the player can continue to advance, we need that E(s) > 0. Let E(s) = 0, we can solve the functions and get one real number solution, which is the winning probability the player has at least. The expected number of games the player has to play to rank up is
-$$
-E(t)=15/E(s)
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=E(t)=15/E(s)">
 
 ### Without any bonus rule
 
 Assume that the player is simply awarded 1 stars after wining. Then, the expected stars earn in each game is
-$$
-E(s) = q_0p + q_1p + q_2p - (1-p) = 2p - 1
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=E(s) = q_0p + q_1p + q_2p - (1-p) = 2p - 1">
+
 If the player can continue to advance, we need that E(s) > 0, which indicate p > 0.5. It is not surprise that you need a winning probability to be greater than 0.5 for a fair bonus setting. The expected number of games the player has to play to rank up is
-$$
-E(t)=15/E(s)
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=E(t)=15/E(s)">
 
 ## Simulation
 
