@@ -36,7 +36,7 @@ Solve the equations, we have
 
 Assume that the player is awarded x stars after wining and the double bonus rule applies. Then, the expected stars earn in each game is
 
-<img src="https://render.githubusercontent.com/render/math?math=E(s) = xq_0p + xq_1p + 2xq_2p - (1-p) = xp^3 + (x+1)p - 1">
+<img src="https://render.githubusercontent.com/render/math?math=E(s)=xq_0p+xq_1p+2xq_2p-(1-p)=xp^3+(x+1)p-1">
 
 If the player can continue to advance, we need that E(s) > 0. Let E(s) = 0, we can solve the functions and get one real number solution, which is the winning probability the player has at least. The expected number of games the player has to play to rank up is
 
