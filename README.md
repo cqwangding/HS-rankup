@@ -90,17 +90,17 @@ Now I will show the results for the number of games the player need to play to e
 
 The number of games the player need to play to earn 15 stars with bonus rules are demonstrated as below. The figures shows the averaged number of games the player has to play to earn 15 stars. It is clear that the fewer award stars, the more number of plays. With award stars larger than 1, it is kind of easy to advance even the wining probability is smaller than 0.5. Thus, extra award stars is a great benefit in the ranked play. The theoretical calculation and simulation are very similar. The difference might come from that I ignored the rule of rank floor.
 
-![num_games_calc_bonus](HS-rankup\plot\num_games_calc_bonus.png)
+![num_games_calc_bonus](HS-rankup/plot/num_games_calc_bonus.png)
 
-![num_games_sim_bonus](HS-rankup\plot\num_games_sim_bonus.png)
+![num_games_sim_bonus](HS-rankup/plot/num_games_sim_bonus.png)
 
 ### Without double bonus rule
 
 The number of games the player need to play to earn 15 stars without double bonus rule are presented as below. The figures shows the averaged number of games the player has to play to earn 15 stars. Compared with previous results, much more game are needed to advance. Theoretically, you can only advance with a least winning probability. However, the simulation results show that the player can still advance even if the expected star earned is negative. It is because that there is rank floor rule and it is always possible to get advanced with any winning probability. Note that, the number of games increases dramatically while the winning probability decreases.
 
-![num_games_calc_nobonus](HS-rankup\plot\num_games_calc_nobonus.png)
+![num_games_calc_nobonus](HS-rankup/plot/num_games_calc_nobonus.png)
 
-![num_games_simu_nobonus](HS-rankup\plot\num_games_simu_nobonus.png)
+![num_games_simu_nobonus](HS-rankup/plot/num_games_simu_nobonus.png)
 
 ## Conclusion
 
