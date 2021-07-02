@@ -21,12 +21,11 @@ Winning the game will earn players stars, and each rank requires three stars to 
 Since there are rank floors for every 5 ranks, I am interested in how many games a player have to play to advance from one rank floor to another. In another words, earn 15 stars. To calculate the expected number of games a player need to play, I can calculated the expected stars a player can earn in each game. To simply the calculation, I ignore the rule for rank floor and assume that the player lose one star when losing. It should not affect much as most of the games happen in the middle of the 5 ranks. 
 
 Assume the probability the player to win the game is p. Let q<sub>0</sub> to be the probability that the player currently wins 0 consecutive game and q<sub>1</sub> to be the probability that the player currently wins 1 consecutive game, then the the probability that the player currently wins at least 2 consecutive games is q<sub>2</sub>=1-q<sub>0</sub>-q<sub>1</sub>. If the player plays one additional game, the probabilities should remain the same as follows:
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-$$
-q_0=1-p\\
-q_1=q_0p\\
-q_2=(1-q_0)p
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=q_0=1-p">
+<img src="https://render.githubusercontent.com/render/math?math=q_1=q_0p">
+<img src="https://render.githubusercontent.com/render/math?math=q_2=(1-q_0)p">
+
 Solve the equations, we have
 $$
 q_0=1-p\\
